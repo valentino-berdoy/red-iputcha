@@ -1,6 +1,91 @@
-@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Rosario:ital,wght@0,300..700;1,300..700&display=swap');
+:root{
+    --color--principal: #9e6730;
+    --color--secundario: #f0a454;
+    --color--terceario: #ffc388;
+    --color--cuarto: #615e5b;
+    --color--fondo: #f3dbc3;
+}
+body{
+    margin: 0;
+    background: linear-gradient(to top left, var(--color--cuarto)20%,  var(--color--terceario) , var(--color--secundario));
+    box-sizing: border-box;
+    font-family: "Rosario", sans-serif;
+}
 
+h4{
+    display: flex;
+    margin: 40px;
+    gap: 100px;
+    line-height: 30px;
+}
 
-h1{
-    font-family: "Radio Canada Big", sans-serif;
+header{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+header h1{
+    font-weight: 500;
+}
+
+.header-title-container{
+    display: flex;
+    justify-content: center;
+}
+/*------------------ nav-----------------*/
+nav{
+    background: var(--color--principal);
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 95%;
+    border-radius: 10px;
+    border: 1px black solid;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 3%;
+    padding: 0;
+    width: 100%;
+}
+
+nav li{
+    width: 20%;
+    text-align: center;
+    font-weight: 800;
+}
+/*--------------------- main-------------------*/
+
+section{
+    margin: 40px 0;
+    padding-bottom: 40px;
+    border: 1px black solid;
+}
+
+.introduction-container{
+    background: var(--color--principal);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-container{
+    display: flex;
+    justify-content: flex-start;
+    width: 90%;
+}
+
+.desc-container{
+    background: var(--color--secundario);
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    border-radius: 5px;
 }
