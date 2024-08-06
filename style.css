@@ -1,14 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Rosario:ital,wght@0,300..700;1,300..700&display=swap');
 :root{
     --color--principal: #9e6730;
-    --color--secundario: #f0a454;
-    --color--terceario: #ffc388;
+    --color--secundario: #f8c894;
+    --color--terceario: #532a00;
     --color--cuarto: #615e5b;
     --color--fondo: #f3dbc3;
 }
 body{
     margin: 0;
-    background: linear-gradient(to top left, var(--color--cuarto)20%,  var(--color--terceario) , var(--color--secundario));
+    background-image: url("background.png");
     box-sizing: border-box;
     font-family: "Rosario", sans-serif;
 }
@@ -28,12 +29,18 @@ header{
 }
 
 header h1{
-    font-weight: 500;
+    font-weight: 600;
+    font-family: "cinzel decorative";
+    color: var(--color--secundario);
 }
 
 .header-title-container{
     display: flex;
     justify-content: center;
+    background-color: #532a00aa;
+    border: var(--color--cuarto) 2px solid;
+    border-radius: 5px;
+    margin: 2%;
 }
 /*------------------ nav-----------------*/
 nav{
