@@ -18,7 +18,7 @@ h4{
     display: flex;
     margin: 40px;
     gap: 100px;
-    line-height: 30px;
+    line-height: 25px;
 }
 
 header{
@@ -41,7 +41,19 @@ header h1{
     border: var(--color--cuarto) 2px solid;
     border-radius: 5px;
     margin: 2%;
+    margin-top: 30%;
 }
+
+.menu{
+    margin: 1%;
+}
+
+.menu a{
+    text-decoration: none;
+    color: var(--color--secundario);
+    align-items: center;
+}
+
 /*------------------ nav-----------------*/
 nav{
     background: var(--color--principal);
@@ -51,6 +63,8 @@ nav{
     width: 95%;
     border-radius: 10px;
     border: 1px black solid;
+    position: fixed;
+    top: 2%;
 }
 nav ul{
     list-style: none;
@@ -60,6 +74,7 @@ nav ul{
     gap: 3%;
     padding: 0;
     width: 100%;
+    align-items: center;
 }
 
 nav li{
@@ -70,6 +85,7 @@ nav li{
 /*--------------------- main-------------------*/
 
 section{
+    display: flex;
     margin: 40px 0;
     padding-bottom: 40px;
     border: 1px black solid;
