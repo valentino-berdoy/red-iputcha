@@ -16,8 +16,6 @@ body{
 
 h4{
     display: flex;
-    margin: 40px;
-    gap: 100px;
     line-height: 25px;
 }
 
@@ -81,6 +79,7 @@ nav li{
     width: 20%;
     text-align: center;
     font-weight: 800;
+    border: none;
 }
 /*--------------------- main-------------------*/
 
@@ -111,4 +110,24 @@ section{
     justify-content: center;
     text-align: justify;
     border-radius: 5px;
+}
+li
+{
+    border-bottom: 2px#615e5b solid;
+    padding: 10px;
+    width: 100%;
+
+}
+
+.desc-info{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    list-style: none;
+    width: 90%;
+    padding: 0%;
+}
+
+.desc-info li{
+    width: 100%;
 }
