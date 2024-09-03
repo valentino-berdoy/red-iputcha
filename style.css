@@ -131,3 +131,12 @@ li
 .desc-info li{
     width: 100%;
 }
+    
+.distribuidos{
+    background-color: #f8c894;
+    border-radius: 10px;
+    margin: 30px;
+}
+@media screen and (min-widht: 1024px) {
+
+}
