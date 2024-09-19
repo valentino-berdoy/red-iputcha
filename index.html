@@ -28,47 +28,74 @@
             <div class="title-container">
                 <h2>Introduccion</h2>
             </div>
+                <h3>Definicion de una Red</h3>
+            
             <div class="desc-container">
-                <ul class="desc-info">
-                        <li>
-                            1. Definición y Conceptos Clave
-                            Sistemas Distribuidos: Un sistema distribuido es un conjunto de computadoras independientes que se presentan al usuario como un único sistema coherente. Cada computadora en el sistema puede tener su propia CPU, memoria y almacenamiento.
-                            Redes: Los sistemas distribuidos se comunican a través de una red, que puede ser una red local (LAN), una red de área amplia (WAN) o incluso la Internet.
-                        </li>
-                        <li>
-                            2. Características Principales
-                            Transparencia: El sistema intenta ocultar la complejidad de su distribución a los usuarios. Esto incluye la transparencia de acceso (los usuarios no necesitan saber en qué máquina se encuentran los datos), la transparencia de ubicación (los usuarios no necesitan saber la ubicación de los recursos), y la transparencia de replicación (los usuarios no saben que los recursos pueden estar duplicados).
-                            Escalabilidad: Los sistemas distribuidos deben poder manejar el aumento en la carga de trabajo al agregar más recursos, ya sea en términos de máquinas o redes.
-                            Tolerancia a Fallos: Deben ser capaces de continuar funcionando incluso cuando algunos de sus componentes fallan. Esto se logra mediante la replicación de datos y el diseño de algoritmos de recuperación.
-                        </li>
-                        <li>
-                            3. Tipos de Sistemas Distribuidos
-                            Sistemas de Archivos Distribuidos: Permiten que los archivos se almacenen y se accedan desde diferentes máquinas en la red como si fueran parte del sistema de archivos local. Ejemplos incluyen NFS (Network File System) y DFS (Distributed File System).
-                            Bases de Datos Distribuidas: Las bases de datos están distribuidas en varias ubicaciones, pero aparecen como una sola base de datos al usuario. Ejemplos incluyen sistemas de bases de datos como MongoDB y Cassandra.
-                            Sistemas de Computación en la Nube: Servicios como AWS, Azure y Google Cloud proporcionan recursos de computación, almacenamiento y redes distribuidos a través de Internet.
-                            Sistemas de Mensajería Distribuidos: Facilitan la comunicación entre diferentes partes de un sistema distribuido, como Kafka y RabbitMQ.
-                        </li>
-                        <li>
-                            4. Desafíos y Problemas
-                            Sincronización: Coordinación entre las distintas máquinas para asegurar que los datos se mantengan consistentes y se sincronicen correctamente.
-                            Consistencia: Asegurar que todas las copias de los datos sean iguales en todos los nodos, a pesar de las actualizaciones concurrentes. Modelos como el Consistency, Availability, Partition Tolerance (CAP) teorema son cruciales aquí.
-                            Comunicación y Latencia: La comunicación entre nodos en una red distribuida puede tener latencia, lo que puede afectar el rendimiento del sistema.
-                            Seguridad: La protección de datos y la autenticación son más complejas en un entorno distribuido, donde los datos viajan a través de múltiples redes y nodos.
-                        </li>
-                        <li>
-                            5. Protocolos y Tecnologías Asociadas
-                            Protocolos de Comunicación: TCP/IP, HTTP, y protocolos de comunicación de bajo nivel como RPC (Remote Procedure Call) y RMI (Remote Method Invocation).
-                            Tecnologías de Consistencia: Protocolos como Paxos, Raft, y algoritmos de consenso para garantizar que todos los nodos estén de acuerdo en el estado del sistema.
-                            Mecanismos de Replicación: Técnicas para mantener copias de datos en varios nodos para tolerancia a fallos y alta disponibilidad.
-                        </li>
-                        <li>
-                            6. Aplicaciones y Casos de Uso
-                            Servicios Web y APIs: Plataformas web que necesitan escalar y distribuir sus servicios a nivel global.
-                            Sistemas de Financiamiento y Comercio: Plataformas que manejan grandes volúmenes de transacciones y requieren alta disponibilidad y tolerancia a fallos.
-                            Redes Sociales: Sistemas que gestionan datos de usuarios y sus interacciones en una infraestructura distribuida.
-                        </li>
-                </ul>
+                <h3>Definicion de una Red</h3>
+                <p>Una red informática es un conjunto de dispositivos conectados entre sí que pueden comunicarse e intercambiar datos.</p>
             </div>
+
+            <div class="desc-container">
+                <h3>Tipos de redes</h3>
+                <p>Existen diferentes tipos de redes, como LAN (Red de Área Local), WAN (Red de Área Amplia) y WLAN (Red Inalámbrica), cada una adecuada para diferentes necesidades y escalas.</p>
+            </div>
+
+            <div class="title-container">
+                <h3>Componentes básicos</h3>
+            </div>
+            <div class="desc-container">
+                <p> Los elementos fundamentales de una red incluyen computadoras, servidores, routers, switches y puntos de acceso.</p>
+            </div>
+
+            <div class="title-container">
+                <h3>Protocolos de Comunicación</h3>
+            </div>
+            <div class="desc-container">
+                <p>Las redes utilizan protocolos, como TCP/IP, que establecen las reglas para el intercambio de datos, asegurando que la información se envíe y reciba correctamente.</p>
+            </div>
+
+            <div class="title-container">
+                <h3>Topologías de Red</h3>
+            </div>
+            <div class="desc-container">
+                <p>Las redes pueden estructurarse en diferentes topologías, como estrella, anillo o malla, lo que afecta la forma en que se conectan los dispositivos y cómo circula la información.</p>
+            </div>
+
+            <div class="title-container">
+                <h3>Seguridad de la Red</h3>
+            </div>
+            <div class="desc-container">
+                <p> La seguridad es crucial y se logra mediante cortafuegos, cifrado, y autenticación para proteger los datos y la privacidad de los usuarios.</p>
+            </div>
+
+            <div class="title-container">
+                <h3>Dirección IP</h3>
+            </div>
+            <div class="desc-container">
+                <p>Una red informática es un conjunto de dispositivos conectados entre sí que pueden comunicarse e intercambiar datos.</p>
+            </div>
+
+            <div class="title-container">
+                <h3>Compartición de Recursos</h3>
+            </div>
+            <div class="desc-container">
+                <p>Cada dispositivo en una red tiene una dirección IP única que permite identificarlo y facilitar la comunicación entre ellos.</p>
+            </div>
+
+            <div class="title-container">
+                <h3>Escalabilidad</h3>
+            </div>
+            <div class="desc-container">
+                <p>Una red informática es un conjunto de dispositivos conectados entre sí que pueden comunicarse e intercambiar datos.</p>
+            </div>
+
+            <div class="title-container">
+                <h3>Impacto en la Vida Diaria</h3>
+            </div>
+            <div class="desc-container">
+                <p>Una red informática es un conjunto de dispositivos conectados entre sí que pueden comunicarse e intercambiar datos.</p>
+            </div>
+
         </section>
 
         <section class="sistemas-distribuidos-container">
@@ -80,8 +107,8 @@
                 
             </div>
         </section>
-        <section class="comments-section">
 
+        <section class="comments-section">
         </section>
     </main>
 
